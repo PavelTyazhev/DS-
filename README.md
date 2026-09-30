@@ -26,14 +26,15 @@ LLM_PROVIDER=gigachat
 Значение можно получить в личном кабинете / у администратора доступа
 GIGACHAT_CREDENTIALS=your_gigachat_credentials_here
 
-# Scope для авторизации в GigaChat
+## Scope для авторизации в GigaChat
 # Для личного кабинета обычно используется:
 GIGACHAT_API_PERS
 # Для корпоративного кабинета:
 GIGACHAT_API_CORP
+# Пример
 GIGACHAT_SCOPE=GIGACHAT_API_PERS
 
-# Используемая модель
+#№ Используемая модель
 # Если указанная модель недоступна, попробуйте одну из:
 GigaChat-Lite
 GigaChat-Pro
